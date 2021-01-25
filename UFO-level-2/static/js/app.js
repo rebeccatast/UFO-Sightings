@@ -1,5 +1,4 @@
 // from data.js
-var tableData = data;
 showTable(data);
 d3.select('button').on('click',handleClick);
 function showTable(data) {
@@ -21,4 +20,7 @@ function handleClick() {
     };
     d3.select('input').property('value','');
     showTable(filteredData);
-};
+};// from data.js
+var tableData = data;
+
+
