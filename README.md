@@ -1,1 +1,2 @@
 # javascript-challenge
+My friends at ALIENS-R-REAL have complied an extensive database of eye-witness accounts of extra-terrestrials here on planet Earth. To help them get credible information out to the masses, they hired me to create a searchable table of their data that is accessible by the general public. For this project I used the provided starter code with a basic HTML page (index.html) and data source (data.js) and then wrote JavaScript code that searches through the date/time comlumn to match user input.
