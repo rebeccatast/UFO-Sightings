@@ -1,4 +1,7 @@
 // from data.js
+var tableData = data;
+
+//Display dataset
 showTable(data);
 d3.select('button').on('click',handleClick);
 function showTable(data) {
@@ -11,7 +14,7 @@ function showTable(data) {
         });
     });
 };
-//Filter Function
+//Filter data and show filtered data
 function handleClick() {
     var filteredData = data;
     var value = d3.select('input').property('value');
@@ -21,4 +24,5 @@ function handleClick() {
     d3.select('input').property('value','');
     showTable(filteredData);
 };
-
+//Prevent page from refreshing
+d3.event.preventDefault();
