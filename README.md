@@ -1,4 +1,4 @@
-# javascript-challenge
+# UFO Sightings
 My friends at ALIENS-R-REAL have complied an extensive database of eye-witness accounts of UFO sightings. Part of the mission of ALIENS-R-REAL is to get credible information to the masses about the reality of the frequency of UFO sightings on Earth. In order to achieve this mission, ALIENS-R-REAL has created a searchable database for individuals to find out the truth about what is out there.
 
 To create the searchable database for UFO-level-1, I used the provided starter code with a basic HTML page (index.html), css style sheet (style.css), images, and data source (data.js). I then wrote the JavaScript code that filters the data based on user input for date. For UFO-level-2, I modified the HTML page and JavaScript code to allow the user to filter the data based on user input for date, country, state, city, and shape of the UFO. 
